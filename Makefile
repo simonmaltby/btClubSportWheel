@@ -1,7 +1,7 @@
 TARGETPATH = firmware
 
 # The teensy version to use, 30, 31, or LC
-TEENSY = 31
+TEENSY = LC
 
 # Device type: USB (wired) or BT (bluetooth)
 TYPE = USB
@@ -32,7 +32,7 @@ else
 endif
 
 # The name of your project (used to name the compiled .hex file)
-TARGET = csw.teensy$(TEENSY)_$(TYPE)
+TARGET = csw.SRMteensy$(TEENSY)_$(TYPE)
 
 #************************************************************************
 # Location of Teensyduino utilities, Toolchain, and Arduino Libraries.
